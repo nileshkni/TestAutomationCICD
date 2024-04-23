@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-22T15:16:48 IST" name="Suite" finished-at="2024-04-22T15:16:54 IST" duration-ms="6307">
+    <groups>
+    </groups>
+    <test started-at="2024-04-22T15:16:48 IST" name="Test" finished-at="2024-04-22T15:16:54 IST" duration-ms="6307">
+      <class name="seleniumone.WDinit">
+        <test-method signature="testOne()[pri:0, instance:seleniumone.WDinit@4eed46ee]" started-at="2024-04-22T15:16:48 IST" name="testOne" finished-at="2024-04-22T15:16:54 IST" duration-ms="6221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+      </class> <!-- seleniumone.WDinit -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
