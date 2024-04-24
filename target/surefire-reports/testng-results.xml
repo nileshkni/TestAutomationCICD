@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-23T09:23:48 IST" name="Suite" finished-at="2024-04-23T09:23:59 IST" duration-ms="11483">
+  <suite started-at="2024-04-23T13:03:23 IST" name="Suite" finished-at="2024-04-23T13:03:35 IST" duration-ms="12340">
     <groups>
     </groups>
-    <test started-at="2024-04-23T09:23:48 IST" name="FirstTest" finished-at="2024-04-23T09:23:59 IST" duration-ms="11483">
+    <test started-at="2024-04-23T13:03:23 IST" name="FirstTest" finished-at="2024-04-23T13:03:35 IST" duration-ms="12340">
       <class name="seleniumone.WDinit">
-        <test-method is-config="true" signature="initTest()[pri:0, instance:seleniumone.WDinit@2b48a640]" started-at="2024-04-23T09:23:48 IST" name="initTest" finished-at="2024-04-23T09:23:53 IST" duration-ms="5373" status="PASS">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:seleniumone.WDinit@6f46426d]" started-at="2024-04-23T13:03:23 IST" name="initTest" finished-at="2024-04-23T13:03:28 IST" duration-ms="5808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method signature="testOne()[pri:0, instance:seleniumone.WDinit@2b48a640]" started-at="2024-04-23T09:23:53 IST" name="testOne" finished-at="2024-04-23T09:23:59 IST" duration-ms="6004" status="PASS">
+        <test-method signature="testOne()[pri:0, instance:seleniumone.WDinit@6f46426d]" started-at="2024-04-23T13:03:28 IST" name="testOne" finished-at="2024-04-23T13:03:35 IST" duration-ms="6413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->

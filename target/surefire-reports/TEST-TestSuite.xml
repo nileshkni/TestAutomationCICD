@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.483" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.579" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.21+9-adhoc..jdk11u"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-11.0.21\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Neweclipse-workspace\seleniumone"/>
+    <property name="surefire.SuiteXmlFiles" value="testng.xml"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\GitHubRepos\TestAutomationCICD"/>
     <property name="java.vm.vendor" value="OpenLogic"/>
     <property name="java.vendor.url" value="https://openlogic.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +16,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Neweclipse-workspace\seleniumone"/>
+    <property name="user.dir" value="D:\GitHubRepos\TestAutomationCICD"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="11.0.21+9-adhoc..jdk11u"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -35,7 +36,6 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="D:\apache-maven-3.9.6\lib\jansi-native"/>
-    <property name="surefire.suiteXmlFiles" value="testng.xml"/>
     <property name="user.home" value="C:\Users\Hp"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="D:\apache-maven-3.9.6\boot\plexus-classworlds-2.7.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dsurefire.suiteXmlFiles=testng.xml"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dsurefire.SuiteXmlFiles=testng.xml"/>
     <property name="java.home" value="C:\Program Files\OpenJDK\jdk-11.0.21"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -66,5 +66,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testOne" classname="seleniumone.WDinit" time="6.009"/>
+  <testcase name="testOne" classname="seleniumone.WDinit" time="6.417"/>
 </testsuite>
